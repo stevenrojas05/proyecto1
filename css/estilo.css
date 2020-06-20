@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(133, 133, 133);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+#video{
+    background: black;
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+#video video{
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+#content{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(rgb(33, 4, 63), rgb(125, 3, 150));
+    color: white;
+    border-radius: 15px;
+}
+#content h2{
+    text-align: center;
+    display: block;
+}
+#content p{
+    text-align: center;
+    font-size: 50px;
+}
+
+#mision{
+    width: 45%;
+    height: 40%;
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    float: left;
+    background: linear-gradient(rgb(125, 3, 150), rgb(56, 1, 114));
+    color: white;
+    border-radius: 10px;
+}
+#mision h2{
+    text-align: center;
+}
+#mision p{
+    text-align: justify;
+    font-size: 20px;
+}
+#vision{
+    width: 45%;
+    height: 40%;
+    margin-top: 30px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    float: right;
+    background: linear-gradient(rgb(125, 3, 150), rgb(56, 1, 114));
+    color: white;
+    border-radius: 10px;
+}
+#vision h2{
+    text-align: center;
+}
+#vision p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+#formulario{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 500px;
+    background: rgb(24, 23, 23);
+    color: white;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 15px;
+}
+#formulario h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario h3{
+    text-align: center;
+}
+#formulario input {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0;
+    font-size: 20px;
+}
+#formulario input[type="submit"] {
+    background: linear-gradient(rgb(99, 4, 143), rgb(0, 0, 0));
+    border: 0;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 0;   
+}
+#formulario input[type="submit"]:hover {
+    background: linear-gradient(rgb(70, 1, 87), rgb(0, 0, 0));
+}
+#formulario input[type="submit"]:active {
+    transform: sacle(0.95);
+}
+
+#servicios{
+    margin-top: 70px;
+    margin-left: 3%;
+    float:left;
+}
+#servicios{
+    background: transparent;
+    width: 70%;
+    height: 80%;
+    margin-left: 10%;
+    color: white;
+    font-size: 30px; 
+    display: inline-block;
+}
+#servicios a{
+    background: linear-gradient(rgb(150, 1, 187), rgb(84, 1, 117));
+    color: white;
+    display: inline-block;
+    width: 25%;
+    height: 90%;
+    margin-left: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 25px;
+}
+#servicios a:hover{
+    background: linear-gradient(rgb(100, 2, 124), rgb(54, 1, 75));
+    width: 26%;
+    height: 91%;
+}

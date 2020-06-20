@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(133, 133, 133);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+header{
+    position: fixed;
+    height: 45px;
+    width: 100%;
+    font-size: 20px;
+    z-index: 100;
+}
+#menu{
+    margin-top: 0;
+    background: rgb(0, 0, 0);
+    height: 45px;
+    width: 100%;
+    font-size: 20px;
+    z-index: 100;
+    border-bottom: solid 4px rgb(0, 0, 0);
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: rgb(83, 9, 153);
+    border-radius: 20px;
+}
+.item-r{
+    float:right;
+    border-radius: 30px;
+    border: solid 2px rgb(110, 7, 207);
+    z-index: 150;
+}
+
+#img{
+    align-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 6%;
+}
+
+#tabla{
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+#contactenos{
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+table{
+    background-color: rgb(83, 2, 158);
+    color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    padding: 20px;
+    border: solid 2px rgb(45, 0, 80);
+}
+thead{
+    background-color: rgb(33, 0, 59);
+    border-bottom: solid 8px rgb(40, 0, 70);
+}
+#link{
+    color:white;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: auto;
+    border-radius: 10px;
+    background-color: rgb(32, 0, 68);
+}
